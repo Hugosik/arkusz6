@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INF.03-06-25.06-SG</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            box-sizing: border-box;
+            width: 500px;
+        }
+        header, footer, section, main {
+            box-sizing: border-box;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        header {
+            height: 100px;
+            border: 2px solid black;
+            border-bottom: none; 
+        }
+
+        main {
+            display: flex;
+            height: 300px;
+            width: 100%;
+            padding: 0;
+            border: 2px solid black; 
+        }
+        section {
+            flex: 1;
+            height: 100%;
+            border-right: 2px solid black;
+            padding: 10px;
+        }
+
+        footer {
+            height: 100px;
+            border: 2px solid black;
+            border-top: none;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        Blok nagłówkowy
+    </header>
+
+    <main>
+        <section>
+            Pierwszy<br>blok<br>sekcji
+        </section>
+        <section>
+            Drugi<br>blok<br>sekcji
+        </section>
+        <section>
+            Trzeci<br>blok<br>sekcji
+        </section>
+        <section>
+            Czwarty<br>blok<br>sekcji
+        </section>
+    </main>
+
+    <footer>
+        Blok stopki
+    </footer>
+    <div>
+        <br><br>
+        Wzór:
+        <br>
+        <img src="06.png">
+    </div>
+</body>
+</html>
